@@ -1,3 +1,14 @@
 # Week1
 
-hi
+## Summary
+
+### What is remote sensing? 
+
+Remote sensing is a technique and scientific method for obtaining and analysing information about the Earth's surface, atmosphere and oceans without direct contact with the object. The technique relies on the detection and measurement of electromagnetic radiation emitted or reflected from a target object or area. Remote sensing equipment can be mounted on different platforms, including satellites, aircraft, unmanned aerial vehicles (UAVs) and ground stations, to collect a wide range of data about the Earth. 
+
+### How it works?
+
+
+## Applications
+
+## Reflections
