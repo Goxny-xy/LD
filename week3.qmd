@@ -2,6 +2,19 @@
 
 ## Summary
 
+### Atmosphereic correction
+
+####  Dark Object Subtraction (DOS)
+
+### enhancement
+####  Ratio: Normalised Difference Vegetation Index NDVI
+
+### Texture
+
+### PCA
+
+
+
 ## Applications
 
 ## Reflections

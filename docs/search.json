@@ -116,7 +116,7 @@
     "href": "week3.html#summary",
     "title": "3  Week 3",
     "section": "3.1 Summary",
-    "text": "3.1 Summary"
+    "text": "3.1 Summary\n\n3.1.1 Atmosphereic correction\n\n3.1.1.1  Dark Object Subtraction (DOS)\n\n\n\n3.1.2 enhancement\n\n3.1.2.1 Ratio: Normalised Difference Vegetation Index NDVI\n\n\n\n3.1.3 Texture\n\n\n3.1.4 PCA"
   },
   {
     "objectID": "week3.html#applications",
@@ -138,5 +138,12 @@
     "title": "1  Week1",
     "section": "1.4 References",
     "text": "1.4 References"
+  },
+  {
+    "objectID": "week2.html#xaringan",
+    "href": "week2.html#xaringan",
+    "title": "2  Week 2",
+    "section": "2.1 Xaringan",
+    "text": "2.1 Xaringan"
   }
 ]
