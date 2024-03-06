@@ -46,7 +46,7 @@
     "href": "week1.html#summary",
     "title": "1  Week1",
     "section": "1.1 Summary",
-    "text": "1.1 Summary\n\n1.1.1 What is remote sensing?\nRemote sensing is a technique and scientific method for obtaining and analysing information about the Earth’s surface, atmosphere and oceans without direct contact with the object. The technique relies on the detection and measurement of electromagnetic radiation emitted or reflected from a target object or area. Remote sensing equipment can be mounted on different platforms, including satellites, aircraft, unmanned aerial vehicles (UAVs) and ground stations, to collect a wide range of data about the Earth.\n\n\n1.1.2 How it works?"
+    "text": "1.1 Summary\n\n1.1.1 What is remote sensing?\nRemote sensing is a technique and scientific method for obtaining and analysing information about the Earth’s surface, atmosphere and oceans without direct contact with the object. The technique relies on the detection and measurement of electromagnetic radiation emitted or reflected from a target object or area. Remote sensing equipment can be mounted on different platforms, including satellites, aircraft, unmanned aerial vehicles (UAVs) and ground stations, to collect a wide range of data about the Earth.\n\n\n\n\n\n\n\n1.1.2 How it works?"
   },
   {
     "objectID": "week1.html#what-is-remote-sensing",
@@ -67,7 +67,7 @@
     "href": "week1.html#reflections",
     "title": "1  Week1",
     "section": "1.3 Reflections",
-    "text": "1.3 Reflections"
+    "text": "1.3 Reflections\nLearning theoretical concepts like electromagnetic wave theory and sensor principles is only one aspect of studying remote sensing technology; another is actually downloading, processing, and analysing data through hands-on operations. Most importantly, remote sensing is dedicated to finding workable solutions, which makes me feel that it has value in the social, environmental, and economic domains. It even makes me consider the satisfaction of using what I have learned to truly assist in problem solving—something I may do in the future."
   },
   {
     "objectID": "week2.html#summary",
@@ -131,5 +131,12 @@
     "title": "3  Week 3",
     "section": "3.3 Reflections",
     "text": "3.3 Reflections"
+  },
+  {
+    "objectID": "week1.html#references",
+    "href": "week1.html#references",
+    "title": "1  Week1",
+    "section": "1.4 References",
+    "text": "1.4 References"
   }
 ]
