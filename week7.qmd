@@ -1,0 +1,14 @@
+# Week7 Classification I
+
+## Summary
+
+###  Classification and Regression Trees (CART)- ee.Classifier.smileCart
+
+### Random Forest - ee.Classifier.smileRandomForest
+
+
+## Applications
+
+
+
+## Reflections

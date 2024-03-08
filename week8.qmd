@@ -1,0 +1,29 @@
+# Week8 Classification II
+
+## Summary
+
+###  How to consider / process EO data？
+
+#### Object-based Image Analysis
+
+
+####  Sub-pixel Analysis
+
+### How to access the accuracy?
+
+#### User’s accuracy
+
+
+####  Producer’s accuracy
+
+
+#### Kappa
+
+
+#### F1-Score (or F Measure)
+
+## Applications
+
+
+
+## Reflections

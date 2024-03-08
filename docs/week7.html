@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Learning Dairy – week7</title>
+<title>Learning Dairy - 6&nbsp; Week7 Classification I</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating fullcontent">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week7.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">week7.html</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week7.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week7 Classification I</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -108,43 +108,49 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week1</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week1 Getting started with remote sensing</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2 Portfolio</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 3</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week 3 Corrections</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week 4</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week 4 Policy</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">week6.html</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week6 Google Earth Engine</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week7.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">week7.html</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week7 Classification I</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">week8.html</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week8 Classification II</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./week9.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week 9 Temperature or SAR</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -158,14 +164,58 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">6.1</span> Summary</a>
+  <ul class="collapse">
+  <li><a href="#classification-and-regression-trees-cart--ee.classifier.smilecart" id="toc-classification-and-regression-trees-cart--ee.classifier.smilecart" class="nav-link" data-scroll-target="#classification-and-regression-trees-cart--ee.classifier.smilecart"><span class="header-section-number">6.1.1</span> Classification and Regression Trees (CART)- ee.Classifier.smileCart</a></li>
+  <li><a href="#random-forest---ee.classifier.smilerandomforest" id="toc-random-forest---ee.classifier.smilerandomforest" class="nav-link" data-scroll-target="#random-forest---ee.classifier.smilerandomforest"><span class="header-section-number">6.1.2</span> Random Forest - ee.Classifier.smileRandomForest</a></li>
+  </ul></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">6.2</span> Applications</a></li>
+  <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="header-section-number">6.3</span> Reflections</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week7 Classification I</span></h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="summary" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">6.1</span> Summary</h2>
+<section id="classification-and-regression-trees-cart--ee.classifier.smilecart" class="level3" data-number="6.1.1">
+<h3 data-number="6.1.1" class="anchored" data-anchor-id="classification-and-regression-trees-cart--ee.classifier.smilecart"><span class="header-section-number">6.1.1</span> Classification and Regression Trees (CART)- ee.Classifier.smileCart</h3>
+</section>
+<section id="random-forest---ee.classifier.smilerandomforest" class="level3" data-number="6.1.2">
+<h3 data-number="6.1.2" class="anchored" data-anchor-id="random-forest---ee.classifier.smilerandomforest"><span class="header-section-number">6.1.2</span> Random Forest - ee.Classifier.smileRandomForest</h3>
+</section>
+</section>
+<section id="applications" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">6.2</span> Applications</h2>
+</section>
+<section id="reflections" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">6.3</span> Reflections</h2>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -404,12 +454,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./week6.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">week6.html</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week6 Google Earth Engine</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
       <a href="./week8.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">week8.html</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Week8 Classification II</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
