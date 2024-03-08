@@ -1,4 +1,4 @@
-# Week1 Getting started with RS
+# W1 Getting started with RS
 
 ## Summary
 
@@ -20,11 +20,11 @@ Remote sensing has obvious advantages in environmental monitoring, crop estimati
 
 This week's study has led me to search and read a lot of articles about remote sensing applications, and I found that it is interesting and difficult to monitor small vibrations like pre-earthquakes and aftershocks. For example, in the case of the Iranian earthquake, there are at least two different ways to observe its seismicity.
 
-Kaihua Ding, Ping He, Yangmao Wen, Yunguo Chen, Dun Wang, Shuiping Li, and Qi Wang (2018) focused on monitoring surface deformation via InSAR by comparing radar images acquired at different times, accurately measuring surface movement, and inverting slip distributions and rupture processes to detect where earthquakes are most likely to occur. While Arun K. Saraf, Vineeta Rawat, Priyanka Banerjee, Swapnamita Choudhury, Santosh K. Panda, Sudipta Dasgupta, and J. D. Das (2008) used thermal infrared to detect earthquakes where they are most likely to occur by monitoring the surface temperature changes and visually analysing the thermal images, which are then analysed in detail to understand the approximate time of occurrence of thermal anomalies, the intensity of thermal rise, and its spatial extent to monitor earthquakes.
+Ding *et al.*, ([2018](https://doi.org/10.1093/gji/ggy371)) focused on monitoring surface deformation via InSAR by comparing radar images acquired at different times, accurately measuring surface movement, and inverting slip distributions and rupture processes to detect where earthquakes are most likely to occur. While Saraf *et al.*, ([2008](https://doi.org/10.1007/s11069-007-9201-7)) used thermal infrared to detect earthquakes where they are most likely to occur by monitoring the surface temperature changes and visually analysing the thermal images, which are then analysed in detail to understand the approximate time of occurrence of thermal anomalies, the intensity of thermal rise, and its spatial extent to monitor earthquakes.
 
 Since Iran is part of the Alpine-Himalayan belt, it belongs to one of the most seismic regions in the world, and in addition to the high seismic activity, it has relatively cloudless and stable weather conditions for most of the year as well as sparse vegetation cover. Based on these two prerequisites, InSAR is more advantageous. Moreover, the frictional heat generated on the fault surface during rupture takes some time to reach the surface, which may make thermal infrared monitoring of earthquakes inaccurate.
 
-It was also nice to discover that F. Liu, J. R. Elliott, T. J. Craig, A. Hooper, and T. J. Wright (2021) found that the optimised approach to InSAR is time series (I didn't realise that a course I had once taken could still be applied here) because using time series analysis, it is possible to detect small co-seismic events that are not readily visible or clearly defined in a single interferogram. seen or unclear in small coseismic displacements, and to improve images of earthquakes by looking at how estimates of ground motion change over time, leading to clearer observations of earthquakes and modelling of aftershocks following large earthquakes.
+It was also nice to discover that Liu *et al.*, ([2021](https://doi.org/10.1029/2021gl093043)) found that the optimised approach to InSAR is time series (I didn't realise that a course I had once taken could still be applied here) because using time series analysis, it is possible to detect small co-seismic events that are not readily visible or clearly defined in a single interferogram. seen or unclear in small coseismic displacements, and to improve images of earthquakes by looking at how estimates of ground motion change over time, leading to clearer observations of earthquakes and modelling of aftershocks following large earthquakes.
 
 ## Reflections
 
@@ -32,8 +32,8 @@ Learning theoretical concepts like electromagnetic wave theory and sensor princi
 
 ## References
 
-Liu, F., et al. “Improving the Resolving Power of InSAR for Earthquakes Using Time Series: A Case Study in Iran.” Geophysical Research Letters, vol. 48, no. 14, 15 July 2021.
+Ding, K., He, P., Wen, Y., Chen, Y., Wang, D., Li, S. and Wang, Q. (2018). ‘The 2017 Mw 7.3 Ezgeleh, Iran earthquake determined from InSAR measurements and teleseismic waveforms’. *Geophysical Journal International*, 215 (3), pp. 1728–1738. doi: 10.1093/gji/ggy371.
 
-Saraf, Arun K., et al. “Satellite Detection of Earthquake Thermal Infrared Precursors in Iran.” Natural Hazards, vol. 47, no. 1, 19 Jan. 2008, pp. 119–135,
+Liu, F., Elliott, J. R., Craig, T. J., Hooper, A. and Wright, T. J. (2021). ‘Improving the Resolving Power of InSAR for Earthquakes Using Time Series: A Case Study in Iran’. *Geophysical Research Letters*, 48 (14), p. e2021GL093043. doi: 10.1029/2021GL093043.
 
-Xu, Caijun, et al. The 2017 Mw 7.3 Ezgeleh, Iran Earthquake Determined from InSAR Measurements and Teleseismic Waveforms. Vol. 215, no. 3, 15 Sept. 2018, pp. 1728–1738.
+Saraf, A. K., Rawat, V., Banerjee, P., Choudhury, S., Panda, S. K., Dasgupta, S. and Das, J. D. (2008). ‘Satellite detection of earthquake thermal infrared precursors in Iran’. *Natural Hazards*, 47 (1), pp. 119–135. doi: 10.1007/s11069-007-9201-7.
