@@ -20,26 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -252,6 +233,10 @@ div.csl-indent {
 </section>
 <section id="applications" class="level2" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">6.2</span> Applications</h2>
+<p>GEE also includes climatic weather and geophysical data sets. Other ready-to-use products such as the Enhanced Vegetation Index (EVI) and the Normalised Difference Vegetation Index (NDVI) are also available. In addition to providing a large repository of raw remotely sensed imagery, users can access pre-processed, cloud-removed and mosaiced imagery from the GEE data catalogue.</p>
+<p>In the study of land cover change, Hussain et al., (<a href="https://doi.org/10.1007/s11356-019-06072-3">2020</a>) first downloaded Landsat satellite images from the United States Geological Survey (USGS), and since Landsat images had to be composited, and thus also subsetted using the study area based image mask extraction tool in Arc GIS 10.1 software, the vegetation index NDVI was calculated to compare land cover changes over the years. processing, and finally the vegetation index NDVI was calculated to compare the land cover changes over the years.</p>
+<p>However, in the article studying the land cover of Beijing, Huang et al., (<a href="https://doi.org/10.1016/j.rse.2017.02.021">2017</a>) completed the image processing steps of the previous method directly on GEE, and also calculated and exported the NDVI stack files directly.</p>
+<p>It can be seen that Earth Engine does make remote sensing analyses faster and more accessible (you don’t have to download a lot of data and then spend a lot of time dealing with huge raster files), but at the same time it has to be admitted that Arc GIS operations are easier to get started with relative to GEE, and do not require programming skills.</p>
 </section>
 <section id="reflections" class="level2" data-number="6.3">
 <h2 data-number="6.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">6.3</span> Reflections</h2>
@@ -261,14 +246,10 @@ div.csl-indent {
 </section>
 <section id="references" class="level2" data-number="6.4">
 <h2 data-number="6.4" class="anchored" data-anchor-id="references"><span class="header-section-number">6.4</span> References</h2>
-<p><span class="citation" data-cites="huang2017">(<a href="#ref-huang2017" role="doc-biblioref">Huang et al. 2017</a>)</span></p>
+<p>Hussain, S., Mubeen, M., Ahmad, A., Akram, W., Hammad, H. M., Ali, M., Masood, N., Amin, A., Farid, H. U., Sultana, S. R., Fahad, S., Wang, D. and Nasim, W. (2020). ‘Using GIS tools to detect the land use/land cover changes during forty years in Lodhran District of Pakistan’. Environmental Science and Pollution Research, 27 (32), pp.&nbsp;39676–39692. doi: 10.1007/s11356-019-06072-3.</p>
+<p>Zheng, Y. and Zhu, Z. (2017). ‘Mapping major land cover dynamics in Beijing using all Landsat images in Google Earth Engine’. Remote Sensing of Environment, 202, pp.&nbsp;166–176. doi: 10.1016/j.rse.2017.02.021.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-huang2017" class="csl-entry" role="listitem">
-Huang, Huabing, Yanlei Chen, Nicholas Clinton, Jie Wang, Xiaoyi Wang, Caixia Liu, Peng Gong, et al. 2017. <span>“Mapping Major Land Cover Dynamics in Beijing Using All Landsat Images in Google Earth Engine.”</span> <em>Remote Sensing of Environment</em> 202 (December): 166–76. <a href="https://doi.org/10.1016/j.rse.2017.02.021">https://doi.org/10.1016/j.rse.2017.02.021</a>.
-</div>
-</div>
 </section>
 
 </main> <!-- /main -->

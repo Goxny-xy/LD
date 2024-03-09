@@ -28,6 +28,14 @@ GEE is set up based on Google Cloud, the bottom layer is data storage, including
 
 ## Applications
 
+GEE also includes climatic weather and geophysical data sets. Other ready-to-use products such as the Enhanced Vegetation Index (EVI) and the Normalised Difference Vegetation Index (NDVI) are also available. In addition to providing a large repository of raw remotely sensed imagery, users can access pre-processed, cloud-removed and mosaiced imagery from the GEE data catalogue.
+
+In the study of land cover change, Hussain et al., ([2020](https://doi.org/10.1007/s11356-019-06072-3)) first downloaded Landsat satellite images from the United States Geological Survey (USGS), and since Landsat images had to be composited, and thus also subsetted using the study area based image mask extraction tool in Arc GIS 10.1 software, the vegetation index NDVI was calculated to compare land cover changes over the years. processing, and finally the vegetation index NDVI was calculated to compare the land cover changes over the years.
+
+However, in the article studying the land cover of Beijing, Huang et al., ([2017](https://doi.org/10.1016/j.rse.2017.02.021)) completed the image processing steps of the previous method directly on GEE, and also calculated and exported the NDVI stack files directly.
+
+It can be seen that Earth Engine does make remote sensing analyses faster and more accessible (you don't have to download a lot of data and then spend a lot of time dealing with huge raster files), but at the same time it has to be admitted that Arc GIS operations are easier to get started with relative to GEE, and do not require programming skills.
+
 ## Reflections
 
 I've been shocked by the huge dataset access through this week with GEE, and the fact that there's little to worry about in terms of data storage and processing power. And I love the advantage of fast visualisation over SNAP, the lower resolution allows me to see clearly where I want to see (it's the download that's a bit of a headache for me humanly...) !
@@ -38,4 +46,6 @@ However, I am concerned that because GEE relies on satellite data, which may hav
 
 ## References
 
-[@huang2017]
+Hussain, S., Mubeen, M., Ahmad, A., Akram, W., Hammad, H. M., Ali, M., Masood, N., Amin, A., Farid, H. U., Sultana, S. R., Fahad, S., Wang, D. and Nasim, W. (2020). ‘Using GIS tools to detect the land use/land cover changes during forty years in Lodhran District of Pakistan’. Environmental Science and Pollution Research, 27 (32), pp. 39676–39692. doi: 10.1007/s11356-019-06072-3.
+
+Zheng, Y. and Zhu, Z. (2017). ‘Mapping major land cover dynamics in Beijing using all Landsat images in Google Earth Engine’. Remote Sensing of Environment, 202, pp. 166–176. doi: 10.1016/j.rse.2017.02.021.

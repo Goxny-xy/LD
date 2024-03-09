@@ -95,7 +95,7 @@
     "href": "week4.html#summary",
     "title": "5  Week4 Policy：Flood management policy - San José",
     "section": "5.1 Summary",
-    "text": "5.1 Summary\nThe “Green City” development plan focuses on improving urban planning in the San José metropolitan area, protecting the city’s green spaces and associated flora and fauna, and providing residents with good recreational and fitness areas. The plan proposes to improve the city’s resilience to climate change by identifying vulnerable zones such as flood-prone areas, analysing which areas of the city are prone to damage to the natural ecology, and then treating the problem through “natural means”, such as the addition of vegetation."
+    "text": "5.1 Summary\nThe “Green City” development plan focuses on improving urban planning in the San José metropolitan area, protecting the city’s green spaces and associated flora and fauna, and providing residents with good recreational and fitness areas. The plan proposes to improve the city’s resilience to climate change by identifying vulnerable zones such as flood-prone areas, analysing which areas of the city are prone to damage to the natural ecology, and then treating the problem through “natural means”, such as the addition of vegetation.\n\n\n\nCommunities flooded in Caño Ciego. Source: https://www.scielo.sa.cr/scielo.php?pid=S2215-25632023000100273&script=sci_arttext&tlng=en."
   },
   {
     "objectID": "week4.html#applications",
@@ -123,7 +123,7 @@
     "href": "week3.html#applications",
     "title": "4  Week3 Corrections",
     "section": "4.2 Applications",
-    "text": "4.2 Applications\nOcean colour (OC) remote sensing is important for monitoring marine ecosystems. However, inversion of OC signals from top-of-atmosphere (TOA) radiance measured by satellite sensors remains a challenge because the inversion accuracy is highly dependent on the performance of atmospheric corrections and sensor calibration.\nIt has been studied that the performance of dark target subtraction is satisfactory for coastal and inland water applications of Landsat TM and SeaWiFS (Shanmugam and Ahn 2007). However, it is worth noting that this method’s ability to retrieve land surface reflectance properties with high accuracy is problematic for accurate atmospheric correction of satellite ocean colour images of aquatic environments. This is because the surface reflectance usually does not contain information about the water column. The residual radiance signal from the water column accounts for only 10-20 per cent of the TOA signal, which is much smaller than the contribution of surface reflected light to the TOA signal."
+    "text": "4.2 Applications\nOcean colour (OC) remote sensing is important for monitoring marine ecosystems. However, inversion of OC signals from top-of-atmosphere (TOA) radiance measured by satellite sensors remains a challenge because the inversion accuracy is highly dependent on the performance of atmospheric corrections and sensor calibration.\nIt has been studied that the performance of dark target subtraction is satisfactory for coastal and inland water applications of Landsat TM and SeaWiFS (Shanmugam and Ahn 2007). However, it is worth noting that this method’s ability to retrieve land surface reflectance properties with high accuracy is problematic for accurate atmospheric correction of satellite ocean colour images of aquatic environments. This is because the surface reflectance usually does not contain information about the water column. The residual radiance signal from the water column accounts for only 10-20 per cent of the TOA signal, which is much smaller than the contribution of surface reflected light to the TOA signal.\nIlori, Pahlevan and Knudby (2019) found, by comparing estimated (OLI) and observed (AERONET-OC) Rrs values, that SeaDAS compared to other atmospheric correction methods performed the best in a variety of aquatic/ atmospheric conditions with the best overall performance.\nThe discovery of the Improved Dark Object Subtraction (IDOS) method has led to a significant improvement in the visual effect, image clarity and image contrast of remote sensing images; the atmospheric-corrected reflectance curves are closer to the measured typical object reflectance curves in both spectral shapes and reflectance values, which indicates that the algorithm has successfully eliminated the atmospheric influence. Compared with the traditional DOS technique, the accuracy and practicality of the IDOS method are greatly improved (Wang et al., 2019)."
   },
   {
     "objectID": "week3.html#reflections",
@@ -151,7 +151,7 @@
     "href": "week6.html#applications",
     "title": "6  Week6 Google Earth Engine",
     "section": "6.2 Applications",
-    "text": "6.2 Applications"
+    "text": "6.2 Applications\nGEE also includes climatic weather and geophysical data sets. Other ready-to-use products such as the Enhanced Vegetation Index (EVI) and the Normalised Difference Vegetation Index (NDVI) are also available. In addition to providing a large repository of raw remotely sensed imagery, users can access pre-processed, cloud-removed and mosaiced imagery from the GEE data catalogue.\nIn the study of land cover change, Hussain et al., (2020) first downloaded Landsat satellite images from the United States Geological Survey (USGS), and since Landsat images had to be composited, and thus also subsetted using the study area based image mask extraction tool in Arc GIS 10.1 software, the vegetation index NDVI was calculated to compare land cover changes over the years. processing, and finally the vegetation index NDVI was calculated to compare the land cover changes over the years.\nHowever, in the article studying the land cover of Beijing, Huang et al., (2017) completed the image processing steps of the previous method directly on GEE, and also calculated and exported the NDVI stack files directly.\nIt can be seen that Earth Engine does make remote sensing analyses faster and more accessible (you don’t have to download a lot of data and then spend a lot of time dealing with huge raster files), but at the same time it has to be admitted that Arc GIS operations are easier to get started with relative to GEE, and do not require programming skills."
   },
   {
     "objectID": "week6.html#reflections",
@@ -228,7 +228,7 @@
     "href": "week6.html#references",
     "title": "6  Week6 Google Earth Engine",
     "section": "6.4 References",
-    "text": "6.4 References\n(Huang et al. 2017)\n\n\n\n\nHuang, Huabing, Yanlei Chen, Nicholas Clinton, Jie Wang, Xiaoyi Wang, Caixia Liu, Peng Gong, et al. 2017. “Mapping Major Land Cover Dynamics in Beijing Using All Landsat Images in Google Earth Engine.” Remote Sensing of Environment 202 (December): 166–76. https://doi.org/10.1016/j.rse.2017.02.021."
+    "text": "6.4 References\nHussain, S., Mubeen, M., Ahmad, A., Akram, W., Hammad, H. M., Ali, M., Masood, N., Amin, A., Farid, H. U., Sultana, S. R., Fahad, S., Wang, D. and Nasim, W. (2020). ‘Using GIS tools to detect the land use/land cover changes during forty years in Lodhran District of Pakistan’. Environmental Science and Pollution Research, 27 (32), pp. 39676–39692. doi: 10.1007/s11356-019-06072-3.\nZheng, Y. and Zhu, Z. (2017). ‘Mapping major land cover dynamics in Beijing using all Landsat images in Google Earth Engine’. Remote Sensing of Environment, 202, pp. 166–176. doi: 10.1016/j.rse.2017.02.021."
   },
   {
     "objectID": "intro.html#here-is-xiaoyun-gong.",
@@ -250,5 +250,47 @@
     "title": "1  Hello",
     "section": "1.2 Please note:",
     "text": "1.2 Please note:\nIf you find that some pages are blank, click Refresh or something else in the menu bar and then return to view them."
+  },
+  {
+    "objectID": "week9.html#summary",
+    "href": "week9.html#summary",
+    "title": "9  Week 9 Temperature or SAR",
+    "section": "9.1 Summary",
+    "text": "9.1 Summary"
+  },
+  {
+    "objectID": "week9.html#applications",
+    "href": "week9.html#applications",
+    "title": "9  Week 9 Temperature or SAR",
+    "section": "9.2 Applications",
+    "text": "9.2 Applications"
+  },
+  {
+    "objectID": "week9.html#reflections",
+    "href": "week9.html#reflections",
+    "title": "9  Week 9 Temperature or SAR",
+    "section": "9.3 Reflections",
+    "text": "9.3 Reflections"
+  },
+  {
+    "objectID": "week9.html#references",
+    "href": "week9.html#references",
+    "title": "9  Week 9 Temperature or SAR",
+    "section": "9.4 References",
+    "text": "9.4 References"
+  },
+  {
+    "objectID": "week4.html#references",
+    "href": "week4.html#references",
+    "title": "5  Week4 Policy：Flood management policy - San José",
+    "section": "5.4 References",
+    "text": "5.4 References\nArciniega-Esparza, S., Birkel, C., Chavarría-Palma, A., Arheimer, B. and Breña-Naranjo, J. A. (2022). ‘Remote sensing-aided rainfall–runoff modeling in the tropics of Costa Rica’. Hydrology and Earth System Sciences. Copernicus GmbH, 26 (4), pp. 975–999. doi: 10.5194/hess-26-975-2022.\nEkeu-wei, I. T. and Blackburn, G. A. (2018). ‘Applications of Open-Access Remotely Sensed Data for Flood Modelling and Mapping in Developing Regions’. Hydrology. Multidisciplinary Digital Publishing Institute, 5 (3), p. 39. doi: 10.3390/hydrology5030039."
+  },
+  {
+    "objectID": "week3.html#references",
+    "href": "week3.html#references",
+    "title": "4  Week3 Corrections",
+    "section": "4.4 References",
+    "text": "4.4 References\nIlori, C. O., Pahlevan, N. and Knudby, A. (2019). ‘Analyzing Performances of Different Atmospheric Correction Techniques for Landsat 8: Application for Coastal Remote Sensing’. Remote Sensing. Multidisciplinary Digital Publishing Institute, 11 (4), p. 469. doi: 10.3390/rs11040469.\nWang, Y., Wang, X., He, H. and Tian, G. (2019). ‘An Improved Dark Object Subtraction Method for Atmospheric Correction of Remote Sensing Images’. in Wang, Yongtian, Huang, Q., and Peng, Y. (eds) Image and Graphics Technologies and Applications. Singapore: Springer (Communications in Computer and Information Science), pp. 425–435. doi: 10.1007/978-981-13-9917-6_41."
   }
 ]
