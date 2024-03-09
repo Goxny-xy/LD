@@ -149,23 +149,23 @@
   {
     "objectID": "week6.html#applications",
     "href": "week6.html#applications",
-    "title": "5  Week6 Google Earth Engine",
-    "section": "5.2 Applications",
-    "text": "5.2 Applications"
+    "title": "6  Week6 Google Earth Engine",
+    "section": "6.2 Applications",
+    "text": "6.2 Applications"
   },
   {
     "objectID": "week6.html#reflections",
     "href": "week6.html#reflections",
-    "title": "5  Week6 Google Earth Engine",
-    "section": "5.3 Reflections",
-    "text": "5.3 Reflections"
+    "title": "6  Week6 Google Earth Engine",
+    "section": "6.3 Reflections",
+    "text": "6.3 Reflections\nI’ve been shocked by the huge dataset access through this week with GEE, and the fact that there’s little to worry about in terms of data storage and processing power. And I love the advantage of fast visualisation over SNAP, the lower resolution allows me to see clearly where I want to see (it’s the download that’s a bit of a headache for me humanly…) !\nNowadays, when data is becoming more and more dense, especially with the availability of the new Sentinel series, as a user of remote sensing data, more ready-to-use options are what I’m looking for and exploring, and platforms such as GEE certainly have the advantage of working with large datasets and creating powerful visualisations, and the user-friendliness appeals to the “non-expert” user of satellite imagery. The user-friendliness appeals to “non-expert” users of satellite imagery.\nHowever, I am concerned that because GEE relies on satellite data, which may have limitations in terms of temporal coverage and weather conditions, GEE may not be applicable to all remote sensing problems."
   },
   {
     "objectID": "week6.html#summary",
     "href": "week6.html#summary",
-    "title": "5  Week6 Google Earth Engine",
-    "section": "5.1 Summary",
-    "text": "5.1 Summary"
+    "title": "6  Week6 Google Earth Engine",
+    "section": "6.1 Summary",
+    "text": "6.1 Summary\n\n6.1.1 What is GEE?\nGoogle Earth Engine is a cloud-based geospatial analysis platform that enables users to visualize and analyse satellite images of the Earth.\nIt allows users to download and upload global satellite images and allows them to perform complex calculations on them. It consists of two main components that work in tandem with each other, namely the Google Earth Engine Explorer (EE), which is used to view datasets, and the Google Earth Engine Playground (EEP), which is used to perform JavaScript APIs for raster, vector and array operations.\n\n\n\n(a) Google Earth Engine Explorer that is an efficient data visualizer (b) Google Earth Engine Playground, which is the JavaScript API for carrying out raster, vector and array operations.\n\n\n\n\n6.1.2 GEE Architecture\nGEE is set up based on Google Cloud, the bottom layer is data storage, including 20 levels of raster and 22 levels of vector tile data; the second layer is the cloud computing layer, divided into instant response computing and batch computing; the third layer is the networked REST (Representational State Transfer) APls service; the fourth layer is the client library, which is called JavaScript API and Python API; the top layer is the interaction layer, JavaScript API corresponds to Code Editor, and Python API corresponds to the webpage or local application developed by the three parties. The fourth layer is the client library, using JavaScript and Python to parse REST APIs, which can be called JavaScript API and Python API; the top layer is the interaction layer, JavaScript API corresponds to Code Editor, and Python API corresponds to three-party development of web pages or local applications.\n\n\n\n\n\n\n\n6.1.3 Advantages\n1.Massive multi-source data: GEE aggregates petabytes of massive geographic information spatial data, including satellite remote sensing, aerial remote sensing, basic geographic information and advanced application products that can be used directly.\n2.Superior Cloud Computing: GEE is built on the Google Cloud Services platform, which allows for parallel processing of analysis tasks and nearly unlimited computational resources, eliminating the need to consider hardware costs.\n3.Standardised user interfaces: GEE provides dual user interfaces based on JavaScript and Python languages, and standardised encapsulation of many data processing functions, which greatly reduces the learning threshold for users.\n4.Good development ecosystem: GEE has attached great importance to the development of the development ecosystem since the beginning of its launch, with rich official development documentation, the support of scientific research project funds, an active development community, and the organisation of occasional developers’ conferences, etc., which have injected strong vitality into the development of GEE."
   },
   {
     "objectID": "week7.html#summary",
