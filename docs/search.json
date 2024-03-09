@@ -4,7 +4,7 @@
     "href": "intro.html",
     "title": "1  Hello",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "This is a book created from markdown and executable code.\nIf you find that some pages are blank, click Refresh or something else in the menu bar and then return to view them.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   },
   {
     "objectID": "summary.html",
@@ -229,5 +229,26 @@
     "title": "6  Week6 Google Earth Engine",
     "section": "6.4 References",
     "text": "6.4 References\n(Huang et al. 2017)\n\n\n\n\nHuang, Huabing, Yanlei Chen, Nicholas Clinton, Jie Wang, Xiaoyi Wang, Caixia Liu, Peng Gong, et al. 2017. “Mapping Major Land Cover Dynamics in Beijing Using All Landsat Images in Google Earth Engine.” Remote Sensing of Environment 202 (December): 166–76. https://doi.org/10.1016/j.rse.2017.02.021."
+  },
+  {
+    "objectID": "intro.html#here-is-xiaoyun-gong.",
+    "href": "intro.html#here-is-xiaoyun-gong.",
+    "title": "1  Hello",
+    "section": "1.1 Here is Xiaoyun Gong.",
+    "text": "1.1 Here is Xiaoyun Gong.\nThis is a book created from markdown and executable code."
+  },
+  {
+    "objectID": "intro.html#if-you-find-that-some-pages-are-blank-click-refresh-or-something-else-in-the-menu-bar-and-then-return-to-view-them.",
+    "href": "intro.html#if-you-find-that-some-pages-are-blank-click-refresh-or-something-else-in-the-menu-bar-and-then-return-to-view-them.",
+    "title": "1  Hello",
+    "section": "1.2 If you find that some pages are blank, click Refresh or something else in the menu bar and then return to view them.",
+    "text": "1.2 If you find that some pages are blank, click Refresh or something else in the menu bar and then return to view them."
+  },
+  {
+    "objectID": "intro.html#please-note",
+    "href": "intro.html#please-note",
+    "title": "1  Hello",
+    "section": "1.2 Please note:",
+    "text": "1.2 Please note:\nIf you find that some pages are blank, click Refresh or something else in the menu bar and then return to view them."
   }
 ]
