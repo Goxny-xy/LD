@@ -2,7 +2,7 @@
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "Learning Dairy",
+    "title": "1  Hello",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   },
@@ -44,7 +44,7 @@
   {
     "objectID": "week1.html#summary",
     "href": "week1.html#summary",
-    "title": "2  W1 Getting started with RS",
+    "title": "2  Week1 Getting started with RS",
     "section": "2.1 Summary",
     "text": "2.1 Summary\n\n2.1.1 What is remote sensing?\nA scientific method and technique for gathering data about the Earth’s surface, atmosphere, and oceans without making physical touch with the item is called remote sensing. The method is dependent on the identification and quantification of electromagnetic radiation that is either reflected or emitted from a target area or object. A variety of platforms, including as satellites, aeroplanes, unmanned aerial vehicles (UAVs), and ground stations, can be equipped with remote sensing technology to gather a variety of data about the planet.\n\n\n\n\n\n\n\n2.1.2 How it works?\nActive remote sensing: electromagnetic waves are emitted by the sensors and are reflected back from features. For example, a radar system measures a feature’s distance, shape, roughness, and other characteristics by sending out microwaves and receiving their reply.\nPassive remote sensing: depends on the feature itself or on electromagnetic radiation released by a natural light source (like the sun). When sunlight strikes the Earth’s surface, for instance, sensors aboard satellites or aircraft catch the light reflected from features."
   },
@@ -58,14 +58,14 @@
   {
     "objectID": "week1.html#applications",
     "href": "week1.html#applications",
-    "title": "2  W1 Getting started with RS",
+    "title": "2  Week1 Getting started with RS",
     "section": "2.2 Applications",
     "text": "2.2 Applications\nRemote sensing has obvious advantages in environmental monitoring, crop estimation, disaster monitoring, global change, and many more. I am most interested in disaster monitoring, especially earthquakes (because the recent film I watched with the crustal rupture sequence made me feel the need to prepare some knowledge about earthquakes).\nThis week’s study has led me to search and read a lot of articles about remote sensing applications, and I found that it is interesting and difficult to monitor small vibrations like pre-earthquakes and aftershocks. For example, in the case of the Iranian earthquake, there are at least two different ways to observe its seismicity.\nDing et al., (2018) focused on monitoring surface deformation via InSAR by comparing radar images acquired at different times, accurately measuring surface movement, and inverting slip distributions and rupture processes to detect where earthquakes are most likely to occur. While Saraf et al., (2008) used thermal infrared to detect earthquakes where they are most likely to occur by monitoring the surface temperature changes and visually analysing the thermal images, which are then analysed in detail to understand the approximate time of occurrence of thermal anomalies, the intensity of thermal rise, and its spatial extent to monitor earthquakes.\nSince Iran is part of the Alpine-Himalayan belt, it belongs to one of the most seismic regions in the world, and in addition to the high seismic activity, it has relatively cloudless and stable weather conditions for most of the year as well as sparse vegetation cover. Based on these two prerequisites, InSAR is more advantageous. Moreover, the frictional heat generated on the fault surface during rupture takes some time to reach the surface, which may make thermal infrared monitoring of earthquakes inaccurate.\nIt was also nice to discover that Liu et al., (2021) found that the optimised approach to InSAR is time series (I didn’t realise that a course I had once taken could still be applied here) because using time series analysis, it is possible to detect small co-seismic events that are not readily visible or clearly defined in a single interferogram. seen or unclear in small coseismic displacements, and to improve images of earthquakes by looking at how estimates of ground motion change over time, leading to clearer observations of earthquakes and modelling of aftershocks following large earthquakes."
   },
   {
     "objectID": "week1.html#reflections",
     "href": "week1.html#reflections",
-    "title": "2  W1 Getting started with RS",
+    "title": "2  Week1 Getting started with RS",
     "section": "2.3 Reflections",
     "text": "2.3 Reflections\nLearning theoretical concepts like electromagnetic wave theory and sensor principles is only one aspect of studying remote sensing technology; another is actually downloading, processing, and analysing data through hands-on operations. Most importantly, remote sensing is dedicated to finding workable solutions, which makes me feel that it has value in the social, environmental, and economic domains. It even makes me consider the satisfaction of using what I have learned to truly assist in problem solving—something I may do in the future."
   },
@@ -114,35 +114,35 @@
   {
     "objectID": "week3.html#summary",
     "href": "week3.html#summary",
-    "title": "4  W3 Corrections",
+    "title": "4  Week3 Corrections",
     "section": "4.1 Summary",
     "text": "4.1 Summary\n\n4.1.1 Atmosphereic correction\n\n4.1.1.1  Dark Object Subtraction (DOS)\nThe dark subtraction processor implements a simple empirical “atmospheric correction” method of calculation for the source product. This method searches for the darkest pixel value in each band and removes the scattering by subtracting that value from each pixel in the band, thus correcting the original satellite (or any other) image.\nIt is assumed that the darkest parts of the image (water, man-made structures) should be black if there is no effect of atmospheric scattering. A correction is made so that the black value of one band can be used to correct the remaining bands.\n\n\n\n4.1.2 enhancement\n\n4.1.2.1 Ratio: Normalised Difference Vegetation Index NDVI\nIt is a simple graphical metric commonly used to analyse remotely sensed measurements and to assess whether an observation target contains green and healthy vegetation. It quantifies vegetation based on measuring the difference between near-infrared (NIR), which is strongly reflected by vegetation, and red light, which is absorbed by vegetation/has low reflectivity. It’s calculated as follows:\nThe NDVI values range between -1 and 1, and will increase proportionally with vegetation growth. (An area without any growth will have an NDVI of zero.) An area with dense, healthy vegetation will have an NDVI of 1. An area with dense, healthy vegetation will have an NDVI of 1. An NDVI value of less than 0 indicates a lack of drylands. The NDVI of the ocean will be -1.)\n\n\n\nThe example of how to calculate NDVI. Source: NDVI from First Principles\n\n\nTherefore, it can also be said that NDVI is an indicator of the health of green vegetation. Its accuracy and high correlation with the real state of the ground vegetation is very popular.\n\n\n\n4.1.3 Texture\nTexture is one of the most important features in the process of image interpretation and classification. Compared to other important spatial features (e.g., shape and size), it is relatively simple to use because it does not require prior image segmentation. In the lecture we learned about the use of grey scale covariance matrices (GLCM) to look at features in different regions.\n\n\n\nThe Comparison of Different Methods of Texture Analysis for Their Efficacy for Land Use Classification in Satellite Imagery (Kupidura 2019).\n\n\n\n\n4.1.4 PCA\nPCA is used to remove redundant spectral information from multi-band datasets and is therefore a form of dimensionality reduction. We can specify whether to perform normalised PCA and the number of output components to be generated (all components will be output unless otherwise specified)."
   },
   {
     "objectID": "week3.html#applications",
     "href": "week3.html#applications",
-    "title": "4  W3 Corrections",
+    "title": "4  Week3 Corrections",
     "section": "4.2 Applications",
     "text": "4.2 Applications\nOcean colour (OC) remote sensing is important for monitoring marine ecosystems. However, inversion of OC signals from top-of-atmosphere (TOA) radiance measured by satellite sensors remains a challenge because the inversion accuracy is highly dependent on the performance of atmospheric corrections and sensor calibration.\nIt has been studied that the performance of dark target subtraction is satisfactory for coastal and inland water applications of Landsat TM and SeaWiFS (Shanmugam and Ahn 2007). However, it is worth noting that this method’s ability to retrieve land surface reflectance properties with high accuracy is problematic for accurate atmospheric correction of satellite ocean colour images of aquatic environments. This is because the surface reflectance usually does not contain information about the water column. The residual radiance signal from the water column accounts for only 10-20 per cent of the TOA signal, which is much smaller than the contribution of surface reflected light to the TOA signal."
   },
   {
     "objectID": "week3.html#reflections",
     "href": "week3.html#reflections",
-    "title": "4  W3 Corrections",
+    "title": "4  Week3 Corrections",
     "section": "4.3 Reflections",
     "text": "4.3 Reflections\nThe study of NDVI allowed me to better understand the examples given in the first lesson of CASA0024, as well as to know what atmospheric correction is and why this operational step is so important, also helped me to understand how to remove atmospheric influences from remotely sensed imagery in order to obtain more realistic information about surface reflectance. This process is important for increasing the value of remote sensing data for applications, whether it plays an integral role in land cover classification, vegetation monitoring or environmental assessment.\nSecond, texture is an essential component of the picture that can reveal details about the surface’s composition and structure, both of which are critical for remote sensing image interpretation. Different classes can be readily detected using the texture information of the image, which can lead to more accurate work in the future.\nOverall, studying texture analysis and atmospheric correction has deepened my understanding of the use and promise of remote sensing technologies for real-world issue solving."
   },
   {
     "objectID": "week1.html#references",
     "href": "week1.html#references",
-    "title": "2  W1 Getting started with RS",
+    "title": "2  Week1 Getting started with RS",
     "section": "2.4 References",
     "text": "2.4 References\nDing, K., He, P., Wen, Y., Chen, Y., Wang, D., Li, S. and Wang, Q. (2018). ‘The 2017 Mw 7.3 Ezgeleh, Iran earthquake determined from InSAR measurements and teleseismic waveforms’. Geophysical Journal International, 215 (3), pp. 1728–1738. doi: 10.1093/gji/ggy371.\nLiu, F., Elliott, J. R., Craig, T. J., Hooper, A. and Wright, T. J. (2021). ‘Improving the Resolving Power of InSAR for Earthquakes Using Time Series: A Case Study in Iran’. Geophysical Research Letters, 48 (14), p. e2021GL093043. doi: 10.1029/2021GL093043.\nSaraf, A. K., Rawat, V., Banerjee, P., Choudhury, S., Panda, S. K., Dasgupta, S. and Das, J. D. (2008). ‘Satellite detection of earthquake thermal infrared precursors in Iran’. Natural Hazards, 47 (1), pp. 119–135. doi: 10.1007/s11069-007-9201-7."
   },
   {
     "objectID": "week2.html#xaringan",
     "href": "week2.html#xaringan",
-    "title": "3  W2 Portfolio",
+    "title": "3  Week2 Portfolio",
     "section": "3.1 Xaringan",
     "text": "3.1 Xaringan"
   },
@@ -193,20 +193,41 @@
     "href": "week8.html#summary",
     "title": "8  Week8 Classification II",
     "section": "8.1 Summary",
-    "text": "8.1 Summary\n\n8.1.1 How to consider / process EO data？\n\n8.1.1.1 Object-based Image Analysis\n\n\n8.1.1.2 Sub-pixel Analysis\n\n\n\n8.1.2 How to access the accuracy?\n\n8.1.2.1 User’s accuracy\n\n\n8.1.2.2 Producer’s accuracy\n\n\n8.1.2.3 Kappa\n\n\n8.1.2.4 F1-Score (or F Measure)"
+    "text": "8.1 Summary\n\n8.1.1 How to consider / process EO data？\n\n8.1.1.1 Object-based Image Analysis\nIt is a method for classifying satellite imagery by segmenting neighboring pixels into objects using pre-segmented objects, it works opposite to pixel analysis.\nTraditional pixel based image classification assigns a land cover category to each pixel. All pixels have the same size, the same shape and do not have any notion of neighbours. However, OBIA segments images into small pixels that form vector objects. The segmentation is not based on each pixel, but automatically digitises the image for you.\n\n\n8.1.1.2 Sub-pixel Analysis\nIt is pixel-based image classification. A sub-pixel is a virtual pixel defined between two actual pixels in an image capture sensor. To improve the resolution or image quality, sub-pixel calculation is very useful. We can infer a more accurate object location in terms of sub-pixel resolution, i.e. the accuracy is higher than that of the pixel width and is a fraction of the pixel size with non-integer coordinates. It is also suitable for detecting objects smaller than pixel size.\n\n\n\n8.1.2 How to access the accuracy?\nAccuracy defines a measure of the clarity or certainty of a measurement. In remote sensing, we focus on the following accuracy values:\n\n8.1.2.1 User’s accuracy\nUA calculates the probability that a spatial data unit classified on a map or image actually represents a specific category on the ground. It can be referred to as reliability. The formula is as follows:\n\\(User's Accuracy=\\frac{Ture Positive}{Ture Positive + False Positive}\\)\n\n\n8.1.2.2 Producer’s accuracy\nPA is calculated in a similar way to UA, the only difference being that it calculates the ratio of the total number of pixels in which the category is correctly classified to the total number of pixels in that category in the classification map. The formula is as follows:\n\n\n8.1.2.3 Kappa\nKappa is a measure of the difference between the observed agreement between two maps as reported by the diagonal entries in the error matrix. Expresses the accuracy of the image compared to chance results, which ranges from 0 to 1, with the following formula:\nOne of the advantages of using this approach is that we can statistically compare two categorised products. For example, two classification maps can be produced using different algorithms and we can validate them using the same reference data.\nIt is used to compare two error matrices; to weight the cells in the error matrix according to the severity of misclassification; and to provide error ranges for accuracy.\n\n\n8.1.2.4 F1-Score (or F Measure)\nIt is a combination of UA and PA and is a measure of predictive performance. The formula is as follows:\nThe highest possible value of 1.0 for the F-score indicates perfect precision and recall; if precision or recall is zero, the lowest possible value is zero. ## Applications\n\n\n\nShows the different sources of errors that occur in classification. Source: https://www.researchgate.net/figure/23738314_fig2_Figure-2-Error-sources-and-accumulation-of-error-in-a-typical-remote-sensing-information."
   },
   {
     "objectID": "week8.html#applications",
     "href": "week8.html#applications",
     "title": "8  Week8 Classification II",
     "section": "8.2 Applications",
-    "text": "8.2 Applications"
+    "text": "8.2 Applications\nPolicymakers need timely and accurate information on landslides in order to respond effectively and quickly to disasters triggered by the same earthquake or rainfall. Remote sensing technologies can provide rapid disaster response at local to regional scales, especially in remote, isolated and inaccessible locations. These techniques are categorised into pixel-based, sub-pixel-based and object-based techniques, each with their own advantages and disadvantages.\nSaba et al., (2023) used all three of these methods for the detection of co-seismic landslides in Muzaffarabad (Little Himalayas), Pakistan. Ultimately, it was found that all three techniques can automatically detect co-seismic landslides with different levels of accuracy and associated limitations.\nThe pixel-based MLC classification system identified the least number of landslides, but with the worst results and accuracy, which is in line with the study of Martha et al., (2010), both suggesting that landslides are much more similar to other geographic entities in the spectrum, thus making it difficult to avoid spectral overlap effects.\nThe OBIA technique will produce good results, but only if fine spatial resolution images are used, which makes the technique somewhat expensive. COSI-Corr produces better results because landslide detection becomes more robust once the changing pixels are identified, using spectral information. The advantage is that it works at the sub-pixel level, eliminating the interference caused by mixed pixels. On the other hand, it utilises temporal changes to identify newly triggered co-seismic or active landslides more effectively than OBIA. The COSI-Corr-based technique is more suitable and cost-effective for detecting co-seismic landslides than MLC and OBIA.\n\n\n\nComparison of pixel, sub-pixel and object-based image analysis techniques for co-seismic landslides detection in seismically active area in Lesser Himalaya, Pakistan. Results from all the three classification techniques (yellow), i.e. a Pixel-based MLC, b Object–based and c COSI-Corr, are overlain by manually prepared landslide inventory polygons (red). Source: https://doi.org/10.1007/s11069-022-05642-y."
   },
   {
     "objectID": "week8.html#reflections",
     "href": "week8.html#reflections",
     "title": "8  Week8 Classification II",
     "section": "8.3 Reflections",
-    "text": "8.3 Reflections"
+    "text": "8.3 Reflections\nThis would be my first exposure to subpixel analysis for learning, and I was intrigued by the technique’s ability to recognise multiple feature information within a single pixel. This method is particularly suitable for dealing with scenes that have poorly defined feature boundaries or severe mixed-pixel problems, and greatly improves the ability to parse remotely sensed images.\nOverall, these learning experiences have not only enhanced my technical skills in remote sensing, but also stimulated me to think broadly about the future of remote sensing applications. I look forward to applying this knowledge to practical projects to solve more complex geographic and environmental problems."
+  },
+  {
+    "objectID": "week7.html#references",
+    "href": "week7.html#references",
+    "title": "7  Week7 Classification I",
+    "section": "7.4 References",
+    "text": "7.4 References\nLoukika, K. N., Keesara, V. R. and Sridhar, V. (2021). ‘Analysis of Land Use and Land Cover Using Machine Learning Algorithms on Google Earth Engine for Munneru River Basin, India’. Sustainability. Multidisciplinary Digital Publishing Institute, 13 (24), p. 13758. https://doi.org/10.3390/su132413758\nOuma, Y., Nkwae, B., Moalafhi, D., Odirile, P., Parida, B., Anderson, G. and Qi, J. (2022). ‘COMPARISON OF MACHINE LEARNING CLASSIFIERS FOR MULTITEMPORAL AND MULTISENSOR MAPPING OF URBAN LULC FEATURES’. The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences. XXIV ISPRS Congress “Imaging today, foreseeing tomorrow”, Commission III - 2022 edition, 6–11 June 2022, Nice, France, Copernicus GmbH, XLIII-B3-2022, pp. 681–689. https://doi.org/10.5194/isprs-archives-XLIII-B3-2022-681-2022\nZhao, Z., Islam, F., Waseem, L. A., Tariq, A., Nawaz, M., Islam, I. U., Bibi, T., Rehman, N. U., Ahmad, W., Aslam, R. W., Raza, D. and Hatamleh, W. A. (2024). ‘Comparison of Three Machine Learning Algorithms Using Google Earth Engine for Land Use Land Cover Classification’. Rangeland Ecology & Management, 92, pp. 129–137. https://doi.org/10.1016/j.rama.2023.10.007"
+  },
+  {
+    "objectID": "week8.html#references",
+    "href": "week8.html#references",
+    "title": "8  Week8 Classification II",
+    "section": "8.4 References",
+    "text": "8.4 References\nCharacterising spectral, spatial and morphometric properties of landslides for semi-automatic detection using object-oriented methods’. Geomorphology, 116 (1), pp. 24–36. doi: 10.1016/j.geomorph.2009.10.004.\nSaba, S. B., Ali, M., Turab, S. A., Waseem, M. and Faisal, S. (2023). ‘Comparison of pixel, sub-pixel and object-based image analysis techniques for co-seismic landslides detection in seismically active area in Lesser Himalaya, Pakistan’. Natural Hazards, 115 (3), pp. 2383–2398. doi: 10.1007/s11069-022-05642-y."
+  },
+  {
+    "objectID": "week6.html#references",
+    "href": "week6.html#references",
+    "title": "6  Week6 Google Earth Engine",
+    "section": "6.4 References",
+    "text": "6.4 References\n(Huang et al. 2017)\n\n\n\n\nHuang, Huabing, Yanlei Chen, Nicholas Clinton, Jie Wang, Xiaoyi Wang, Caixia Liu, Peng Gong, et al. 2017. “Mapping Major Land Cover Dynamics in Beijing Using All Landsat Images in Google Earth Engine.” Remote Sensing of Environment 202 (December): 166–76. https://doi.org/10.1016/j.rse.2017.02.021."
   }
 ]

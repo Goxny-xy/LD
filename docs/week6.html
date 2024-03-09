@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -108,25 +127,25 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">intro.html</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Hello</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">W1 Getting started with RS</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week1 Getting started with RS</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">W2 Portfolio</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Week2 Portfolio</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">W3 Corrections</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Week3 Corrections</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -177,6 +196,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">6.2</span> Applications</a></li>
   <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="header-section-number">6.3</span> Reflections</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">6.4</span> References</a></li>
   </ul>
 </nav>
     </div>
@@ -238,8 +258,17 @@ ul.task-list li input[type="checkbox"] {
 <p>I’ve been shocked by the huge dataset access through this week with GEE, and the fact that there’s little to worry about in terms of data storage and processing power. And I love the advantage of fast visualisation over SNAP, the lower resolution allows me to see clearly where I want to see (it’s the download that’s a bit of a headache for me humanly…) !</p>
 <p>Nowadays, when data is becoming more and more dense, especially with the availability of the new Sentinel series, as a user of remote sensing data, more ready-to-use options are what I’m looking for and exploring, and platforms such as GEE certainly have the advantage of working with large datasets and creating powerful visualisations, and the user-friendliness appeals to the “non-expert” user of satellite imagery. The user-friendliness appeals to “non-expert” users of satellite imagery.</p>
 <p>However, I am concerned that because GEE relies on satellite data, which may have limitations in terms of temporal coverage and weather conditions, GEE may not be applicable to all remote sensing problems.</p>
+</section>
+<section id="references" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="references"><span class="header-section-number">6.4</span> References</h2>
+<p><span class="citation" data-cites="huang2017">(<a href="#ref-huang2017" role="doc-biblioref">Huang et al. 2017</a>)</span></p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-huang2017" class="csl-entry" role="listitem">
+Huang, Huabing, Yanlei Chen, Nicholas Clinton, Jie Wang, Xiaoyi Wang, Caixia Liu, Peng Gong, et al. 2017. <span>“Mapping Major Land Cover Dynamics in Beijing Using All Landsat Images in Google Earth Engine.”</span> <em>Remote Sensing of Environment</em> 202 (December): 166–76. <a href="https://doi.org/10.1016/j.rse.2017.02.021">https://doi.org/10.1016/j.rse.2017.02.021</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

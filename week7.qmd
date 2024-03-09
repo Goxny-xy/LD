@@ -77,3 +77,12 @@ I have been learning classification methods like Random Forests since my undergr
 I recognised the importance of combining CART, RF and SVM models with geospatial techniques for LULC analysis because of their ability to accurately classify and predict land cover classes, detect changes over time and provide valuable insights for land management, environmental monitoring and urban planning.
 
 However, interpreting the output of a decision tree classifier or random forest is not as simple as reading coefficients and intercepts directly from a linear regression model as applied from CASA0007.
+
+## References
+Loukika, K. N., Keesara, V. R. and Sridhar, V. (2021). ‘Analysis of Land Use and Land Cover Using Machine Learning Algorithms on Google Earth Engine for Munneru River Basin, India’. Sustainability. Multidisciplinary Digital Publishing Institute, 13 (24), p. 13758. https://doi.org/10.3390/su132413758
+
+Ouma, Y., Nkwae, B., Moalafhi, D., Odirile, P., Parida, B., Anderson, G. and Qi, J. (2022). ‘COMPARISON OF MACHINE LEARNING CLASSIFIERS FOR MULTITEMPORAL AND MULTISENSOR MAPPING OF URBAN LULC FEATURES’. The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences. XXIV ISPRS Congress “Imaging today, foreseeing tomorrow”, Commission III - 2022 edition, 6&ndash;11 June 2022, Nice, France, Copernicus GmbH, XLIII-B3-2022, pp. 681–689. https://doi.org/10.5194/isprs-archives-XLIII-B3-2022-681-2022
+
+Zhao, Z., Islam, F., Waseem, L. A., Tariq, A., Nawaz, M., Islam, I. U., Bibi, T., Rehman, N. U., Ahmad, W., Aslam, R. W., Raza, D. and Hatamleh, W. A. (2024). ‘Comparison of Three Machine Learning Algorithms Using Google Earth Engine for Land Use Land Cover Classification’. Rangeland Ecology & Management, 92, pp. 129–137. https://doi.org/10.1016/j.rama.2023.10.007
+
+

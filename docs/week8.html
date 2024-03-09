@@ -62,6 +62,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -176,6 +178,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">8.2</span> Applications</a></li>
   <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="header-section-number">8.3</span> Reflections</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">8.4</span> References</a></li>
   </ul>
 </nav>
     </div>
@@ -205,32 +208,67 @@ ul.task-list li input[type="checkbox"] {
 <h3 data-number="8.1.1" class="anchored" data-anchor-id="how-to-consider-process-eo-data"><span class="header-section-number">8.1.1</span> How to consider / process EO data？</h3>
 <section id="object-based-image-analysis" class="level4" data-number="8.1.1.1">
 <h4 data-number="8.1.1.1" class="anchored" data-anchor-id="object-based-image-analysis"><span class="header-section-number">8.1.1.1</span> Object-based Image Analysis</h4>
+<p>It is a method for classifying satellite imagery by segmenting neighboring pixels into objects using pre-segmented objects, it works opposite to pixel analysis.</p>
+<p>Traditional pixel based image classification assigns a land cover category to each pixel. All pixels have the same size, the same shape and do not have any notion of neighbours. However, OBIA segments images into small pixels that form vector objects. The segmentation is not based on each pixel, but automatically digitises the image for you.</p>
 </section>
 <section id="sub-pixel-analysis" class="level4" data-number="8.1.1.2">
 <h4 data-number="8.1.1.2" class="anchored" data-anchor-id="sub-pixel-analysis"><span class="header-section-number">8.1.1.2</span> Sub-pixel Analysis</h4>
+<p>It is pixel-based image classification. A sub-pixel is a virtual pixel defined between two actual pixels in an image capture sensor. To improve the resolution or image quality, sub-pixel calculation is very useful. We can infer a more accurate object location in terms of sub-pixel resolution, i.e.&nbsp;the accuracy is higher than that of the pixel width and is a fraction of the pixel size with non-integer coordinates. It is also suitable for detecting objects smaller than pixel size.</p>
 </section>
 </section>
 <section id="how-to-access-the-accuracy" class="level3" data-number="8.1.2">
 <h3 data-number="8.1.2" class="anchored" data-anchor-id="how-to-access-the-accuracy"><span class="header-section-number">8.1.2</span> How to access the accuracy?</h3>
+<p>Accuracy defines a measure of the clarity or certainty of a measurement. In remote sensing, we focus on the following accuracy values:</p>
 <section id="users-accuracy" class="level4" data-number="8.1.2.1">
 <h4 data-number="8.1.2.1" class="anchored" data-anchor-id="users-accuracy"><span class="header-section-number">8.1.2.1</span> User’s accuracy</h4>
+<p>UA calculates the probability that a spatial data unit classified on a map or image actually represents a specific category on the ground. It can be referred to as reliability. The formula is as follows:</p>
+<p><span class="math inline">\(User's Accuracy=\frac{Ture Positive}{Ture Positive + False Positive}\)</span></p>
 </section>
 <section id="producers-accuracy" class="level4" data-number="8.1.2.2">
 <h4 data-number="8.1.2.2" class="anchored" data-anchor-id="producers-accuracy"><span class="header-section-number">8.1.2.2</span> Producer’s accuracy</h4>
+<p>PA is calculated in a similar way to UA, the only difference being that it calculates the ratio of the total number of pixels in which the category is correctly classified to the total number of pixels in that category in the classification map. The formula is as follows:</p>
 </section>
 <section id="kappa" class="level4" data-number="8.1.2.3">
 <h4 data-number="8.1.2.3" class="anchored" data-anchor-id="kappa"><span class="header-section-number">8.1.2.3</span> Kappa</h4>
+<p>Kappa is a measure of the difference between the observed agreement between two maps as reported by the diagonal entries in the error matrix. Expresses the accuracy of the image compared to chance results, which ranges from 0 to 1, with the following formula:</p>
+<p>One of the advantages of using this approach is that we can statistically compare two categorised products. For example, two classification maps can be produced using different algorithms and we can validate them using the same reference data.</p>
+<p>It is used to compare two error matrices; to weight the cells in the error matrix according to the severity of misclassification; and to provide error ranges for accuracy.</p>
 </section>
 <section id="f1-score-or-f-measure" class="level4" data-number="8.1.2.4">
 <h4 data-number="8.1.2.4" class="anchored" data-anchor-id="f1-score-or-f-measure"><span class="header-section-number">8.1.2.4</span> F1-Score (or F Measure)</h4>
+<p>It is a combination of UA and PA and is a measure of predictive performance. The formula is as follows:</p>
+<p>The highest possible value of 1.0 for the F-score indicates perfect precision and recall; if precision or recall is zero, the lowest possible value is zero. ## Applications</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/f1.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Shows the different sources of errors that occur in classification. Source: <a href="https://www.researchgate.net/figure/23738314_fig2_Figure-2-Error-sources-and-accumulation-of-error-in-a-typical-remote-sensing-information" class="uri">https://www.researchgate.net/figure/23738314_fig2_Figure-2-Error-sources-and-accumulation-of-error-in-a-typical-remote-sensing-information</a>.</figcaption>
+</figure>
+</div>
 </section>
 </section>
 </section>
 <section id="applications" class="level2" data-number="8.2">
 <h2 data-number="8.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">8.2</span> Applications</h2>
+<p>Policymakers need timely and accurate information on landslides in order to respond effectively and quickly to disasters triggered by the same earthquake or rainfall. Remote sensing technologies can provide rapid disaster response at local to regional scales, especially in remote, isolated and inaccessible locations. These techniques are categorised into pixel-based, sub-pixel-based and object-based techniques, each with their own advantages and disadvantages.</p>
+<p>Saba et al., (2023) used all three of these methods for the detection of co-seismic landslides in Muzaffarabad (Little Himalayas), Pakistan. Ultimately, it was found that all three techniques can automatically detect co-seismic landslides with different levels of accuracy and associated limitations.</p>
+<p>The pixel-based MLC classification system identified the least number of landslides, but with the worst results and accuracy, which is in line with the study of Martha et al., (2010), both suggesting that landslides are much more similar to other geographic entities in the spectrum, thus making it difficult to avoid spectral overlap effects.</p>
+<p>The OBIA technique will produce good results, but only if fine spatial resolution images are used, which makes the technique somewhat expensive. COSI-Corr produces better results because landslide detection becomes more robust once the changing pixels are identified, using spectral information. The advantage is that it works at the sub-pixel level, eliminating the interference caused by mixed pixels. On the other hand, it utilises temporal changes to identify newly triggered co-seismic or active landslides more effectively than OBIA. The COSI-Corr-based technique is more suitable and cost-effective for detecting co-seismic landslides than MLC and OBIA.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/w8.jpg" width="564" height="1089" class="figure-img"></p>
+<figcaption class="figure-caption">Comparison of pixel, sub-pixel and object-based image analysis techniques for co-seismic landslides detection in seismically active area in Lesser Himalaya, Pakistan. Results from all the three classification techniques (yellow), i.e.&nbsp;a Pixel-based MLC, b Object–based and c COSI-Corr, are overlain by manually prepared landslide inventory polygons (red). Source: <a href="https://doi.org/10.1007/s11069-022-05642-y" class="uri">https://doi.org/10.1007/s11069-022-05642-y</a>.</figcaption>
+</figure>
+</div>
 </section>
 <section id="reflections" class="level2" data-number="8.3">
 <h2 data-number="8.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">8.3</span> Reflections</h2>
+<p>This would be my first exposure to subpixel analysis for learning, and I was intrigued by the technique’s ability to recognise multiple feature information within a single pixel. This method is particularly suitable for dealing with scenes that have poorly defined feature boundaries or severe mixed-pixel problems, and greatly improves the ability to parse remotely sensed images.</p>
+<p>Overall, these learning experiences have not only enhanced my technical skills in remote sensing, but also stimulated me to think broadly about the future of remote sensing applications. I look forward to applying this knowledge to practical projects to solve more complex geographic and environmental problems.</p>
+</section>
+<section id="references" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="references"><span class="header-section-number">8.4</span> References</h2>
+<p>Characterising spectral, spatial and morphometric properties of landslides for semi-automatic detection using object-oriented methods’. Geomorphology, 116 (1), pp.&nbsp;24–36. doi: 10.1016/j.geomorph.2009.10.004.</p>
+<p>Saba, S. B., Ali, M., Turab, S. A., Waseem, M. and Faisal, S. (2023). ‘Comparison of pixel, sub-pixel and object-based image analysis techniques for co-seismic landslides detection in seismically active area in Lesser Himalaya, Pakistan’. Natural Hazards, 115 (3), pp.&nbsp;2383–2398. doi: 10.1007/s11069-022-05642-y.</p>
 
 
 </section>

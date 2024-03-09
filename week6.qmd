@@ -35,3 +35,7 @@ I've been shocked by the huge dataset access through this week with GEE, and the
 Nowadays, when data is becoming more and more dense, especially with the availability of the new Sentinel series, as a user of remote sensing data, more ready-to-use options are what I'm looking for and exploring, and platforms such as GEE certainly have the advantage of working with large datasets and creating powerful visualisations, and the user-friendliness appeals to the "non-expert" user of satellite imagery. The user-friendliness appeals to "non-expert" users of satellite imagery.
 
 However, I am concerned that because GEE relies on satellite data, which may have limitations in terms of temporal coverage and weather conditions, GEE may not be applicable to all remote sensing problems.
+
+## References
+
+[@huang2017]
