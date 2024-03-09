@@ -172,41 +172,41 @@
     "href": "week7.html#summary",
     "title": "7  Week7 Classification I",
     "section": "7.1 Summary",
-    "text": "7.1 Summary\n\n7.1.1 Classification and Regression Trees (CART)- ee.Classifier.smileCart\n\n\n7.1.2 Random Forest - ee.Classifier.smileRandomForest"
+    "text": "7.1 Summary\nSupervised classification is the most commonly used technique for quantitative chemical analysis of remote sensing image data. Supervised classification supports the idea that the user can select sample pixels in an image that represent a particular class, thereby instructing the image processing software to use these training sites as a reference for classifying all other pixels within the image.\nThe Classifier package handles supervised classification through traditional ML algorithms running in the Earth Engine. These classifiers include CART, RandomForest, NaiveBayes, and SVM.\n\n7.1.1 Classification and Regression Trees (CART)- ee.Classifier.smileCart\nA classification and regression tree (CART) is a predictive model that explains how to predict the value of an outcome variable based on other values.The output of a CART is a decision tree in which each fork is a partition of the predictor variable and each end node contains a prediction for the outcome variable.\n\n\n\n\n\nBasically, a decision tree is a fairly simple structure consisting of three different types of elements: a root node, which is the starting point containing all the training samples; multiple decision nodes, where we split the data using simple if-else decision rules, and multiple terminal nodes, where we end up assigning categories for classification purposes.\n\n\n\nDecision Tree Example. Source: https://blogs.fu-berlin.de/reseda/random-forest.\n\n\n\n7.1.1.1 Advantages and limitations\nAdvantages of Decision Trees:\n\nThe concept is fairly easy to understand compared to other classification algorithms.\nDecision trees can be visualised to help understand or explain it.\nIt can handle not only numerical data but also categorical data.\n\nDisadvantages of Decision Trees:\n\nProne to overfitting, which means creating extremely complex trees that don’t generalise the data correctly.\n\n\n\n\n7.1.2 Random Forest - ee.Classifier.smileRandomForest\nRandom Forest is a supervised learning algorithm which can be used for classification and regression. It is widely used in machine learning and constructs integrated classifiers by combining multiple CART trees.\nRandom forest creates decision trees on randomly selected data samples, obtains predictions from each tree and selects the best solution by voting.\n\n\n\n\n\n\n\n\nThe example. Source: NASA’s Applied Remote Sensing Training Program.\n\n\n\n7.1.2.1 Advantages and limitations\nAdvantages:\n\nUse of multiple trees reduces the risk of overfitting.\nTraining time is shorter and not sensitive to outliers in training data.\nRuns efficiently and produces high accuracy for large datasets.\nEasy to parameterize.\n\nLimitations:\n\nAlgorithm cannot predict spectral range beyond training data.\nTraining data must capture the entire spectral range.\n\n\n\n\nSimple random forest classification completed for the San Francisco Bay Area of California in the GEE interface."
   },
   {
     "objectID": "week7.html#applications",
     "href": "week7.html#applications",
     "title": "7  Week7 Classification I",
     "section": "7.2 Applications",
-    "text": "7.2 Applications"
+    "text": "7.2 Applications\nWhile writing the above summary, I have been carrying a question: who is better among these classification methods? After searching the relevant literature with this given question, I found that there have actually been many studies on how CART, RS and SVM compare to each other, and even how they can be improved. Especially it has been mentioned and used in exploring land cover.\nZhao et al., (2024) showed that all three models performed well in LULC’s with reliable closure correlation accuracy and mapped to detect different classes of LULC’s during the classification process in the GEE platform.However, if we had to rank them: the Kappa coefficients of the CART, SVM, and RF were 94%, 95%, and 97%, respectively, while the average overall accuracy is 96.25%, 97% and 98.68%, respectively.The superior performance of the RF method in classification can be attributed to the larger size of the training dataset, which improves the classification accuracy.\nTheir findings are similar to those of Loukika et al., (2021) and Ouma et al., (2022) in that CART and SVM performed well in detecting and mapping water bodies in the study area; and RF and CART classifiers performed well in mapping built-up categories in the study area, whereas SVM confused them with bare soil.\nMy understanding is that who performs better depends on what data is used to classify, because models perform differently for different types, and only when data and methods match each other can we get better results. For example, a large number of studies have shown that RF is considered to be the most suitable algorithm for vegetation extraction in the current research field, followed by SVM; CART and SVM perform better for water classification."
   },
   {
     "objectID": "week7.html#reflections",
     "href": "week7.html#reflections",
     "title": "7  Week7 Classification I",
     "section": "7.3 Reflections",
-    "text": "7.3 Reflections"
+    "text": "7.3 Reflections\nI have been learning classification methods like Random Forests since my undergraduate degree, but was limited to solving simple classification projects in R. Until I walked into the Machine Learning area of GEE this week, I was happy that the methods I had been learning could be applied to new areas and solve more complex geographic problems.\nI recognised the importance of combining CART, RF and SVM models with geospatial techniques for LULC analysis because of their ability to accurately classify and predict land cover classes, detect changes over time and provide valuable insights for land management, environmental monitoring and urban planning.\nHowever, interpreting the output of a decision tree classifier or random forest is not as simple as reading coefficients and intercepts directly from a linear regression model as applied from CASA0007."
   },
   {
     "objectID": "week8.html#summary",
     "href": "week8.html#summary",
-    "title": "7  Week8 Classification II",
-    "section": "7.1 Summary",
-    "text": "7.1 Summary\n\n7.1.1 How to consider / process EO data？\n\n7.1.1.1 Object-based Image Analysis\n\n\n7.1.1.2 Sub-pixel Analysis\n\n\n\n7.1.2 How to access the accuracy?\n\n7.1.2.1 User’s accuracy\n\n\n7.1.2.2 Producer’s accuracy\n\n\n7.1.2.3 Kappa\n\n\n7.1.2.4 F1-Score (or F Measure)"
+    "title": "8  Week8 Classification II",
+    "section": "8.1 Summary",
+    "text": "8.1 Summary\n\n8.1.1 How to consider / process EO data？\n\n8.1.1.1 Object-based Image Analysis\n\n\n8.1.1.2 Sub-pixel Analysis\n\n\n\n8.1.2 How to access the accuracy?\n\n8.1.2.1 User’s accuracy\n\n\n8.1.2.2 Producer’s accuracy\n\n\n8.1.2.3 Kappa\n\n\n8.1.2.4 F1-Score (or F Measure)"
   },
   {
     "objectID": "week8.html#applications",
     "href": "week8.html#applications",
-    "title": "7  Week8 Classification II",
-    "section": "7.2 Applications",
-    "text": "7.2 Applications"
+    "title": "8  Week8 Classification II",
+    "section": "8.2 Applications",
+    "text": "8.2 Applications"
   },
   {
     "objectID": "week8.html#reflections",
     "href": "week8.html#reflections",
-    "title": "7  Week8 Classification II",
-    "section": "7.3 Reflections",
-    "text": "7.3 Reflections"
+    "title": "8  Week8 Classification II",
+    "section": "8.3 Reflections",
+    "text": "8.3 Reflections"
   }
 ]
