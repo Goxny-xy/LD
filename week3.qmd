@@ -4,7 +4,7 @@
 
 ### Atmosphereic correction
 
-####  Dark Object Subtraction (DOS)
+#### Dark Object Subtraction (DOS)
 
 The dark subtraction processor implements a simple empirical "atmospheric correction" method of calculation for the source product. This method searches for the darkest pixel value in each band and removes the scattering by subtracting that value from each pixel in the band, thus correcting the original satellite (or any other) image.
 
@@ -36,9 +36,7 @@ PCA is used to remove redundant spectral information from multi-band datasets an
 
 Ocean colour (OC) remote sensing is important for monitoring marine ecosystems. However, inversion of OC signals from top-of-atmosphere (TOA) radiance measured by satellite sensors remains a challenge because the inversion accuracy is highly dependent on the performance of atmospheric corrections and sensor calibration.
 
-It has been studied that the performance of dark target subtraction is satisfactory for coastal and inland water applications of Landsat TM and SeaWiFS ([Shanmugam and Ahn 2007](https://doi.org/10.1088/1464-4258/9/5/016)). However, it is worth noting that this method's ability to retrieve land surface reflectance properties with high accuracy is problematic for accurate atmospheric correction of satellite ocean colour images of aquatic environments. This is because the surface reflectance usually does not contain information about the water column. The residual radiance signal from the water column accounts for only 10-20 per cent of the TOA signal, which is much smaller than the contribution of surface reflected light to the TOA signal.
-
-Ilori, Pahlevan and Knudby ([2019](https://doi.org/10.3390/rs11040469)) found, by comparing estimated (OLI) and observed (AERONET-OC) Rrs values, that SeaDAS compared to other atmospheric correction methods performed the best in a variety of aquatic/ atmospheric conditions with the best overall performance.
+It has been studied that the performance of dark target subtraction is satisfactory for coastal and inland water applications of Landsat TM and SeaWiFS ([Shanmugam and Ahn 2007](https://doi.org/10.1088/1464-4258/9/5/016)). However, it is worth noting that this method's ability to retrieve land surface reflectance properties with high accuracy is problematic for accurate atmospheric correction of satellite ocean colour images of aquatic environments. This is because the surface reflectance usually does not contain information about the water column. The residual radiance signal from the water column accounts for only 10-20 per cent of the TOA signal, which is much smaller than the contribution of surface reflected light to the TOA signal. While, Ilori, Pahlevan and Knudby ([2019](https://doi.org/10.3390/rs11040469)) found, by comparing estimated (OLI) and observed (AERONET-OC) Rrs values, that SeaDAS compared to other atmospheric correction methods performed the best in a variety of aquatic/ atmospheric conditions with the best overall performance.
 
 The discovery of the Improved Dark Object Subtraction (IDOS) method has led to a significant improvement in the visual effect, image clarity and image contrast of remote sensing images; the atmospheric-corrected reflectance curves are closer to the measured typical object reflectance curves in both spectral shapes and reflectance values, which indicates that the algorithm has successfully eliminated the atmospheric influence. Compared with the traditional DOS technique, the accuracy and practicality of the IDOS method are greatly improved ([Wang et al., 2019](https://doi.org/10.1007/978-981-13-9917-6_41)).
 
@@ -53,5 +51,8 @@ Overall, studying texture analysis and atmospheric correction has deepened my un
 ## References
 Ilori, C. O., Pahlevan, N. and Knudby, A. (2019). ‘Analyzing Performances of Different Atmospheric Correction Techniques for Landsat 8: Application for Coastal Remote Sensing’. Remote Sensing. Multidisciplinary Digital Publishing Institute, 11 (4), p. 469. doi: 10.3390/rs11040469.
 
+Shanmugam, P. and Ahn, Y.H., 2007. New atmospheric correction technique to retrieve the ocean colour from SeaWiFS imagery in complex coastal waters. Journal of Optics A: Pure and Applied Optics, 9(5), p.511. doi: 10.1088/1464-4258/9/5/016.
+
 Wang, Y., Wang, X., He, H. and Tian, G. (2019). ‘An Improved Dark Object Subtraction Method for Atmospheric Correction of Remote Sensing Images’. in Wang, Yongtian, Huang, Q., and Peng, Y. (eds) Image and Graphics Technologies and Applications. Singapore: Springer (Communications in Computer and Information Science), pp. 425–435. doi: 10.1007/978-981-13-9917-6_41.
+
 
