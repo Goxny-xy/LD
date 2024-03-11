@@ -2,7 +2,9 @@
 
 ## Summary
 
-The "Green City" development plan focuses on improving urban planning in the San José metropolitan area, protecting the city's green spaces and associated flora and fauna, and providing residents with good recreational and fitness areas. The plan proposes to improve the city's resilience to climate change by identifying vulnerable zones such as flood-prone areas, analysing which areas of the city are prone to damage to the natural ecology, and then treating the problem through "natural means", such as the addition of vegetation.
+Because of its location in the Convergence Zone, Costa Rica is frequently affected by stormy weather and has limited chances of recovering from such tropical weather events, which is why extreme flooding is a frequent occurrence there.
+
+The "Green Cities" policy was developed to reduce the impact of flooding, reduce the risk to human life, property and livelihoods, and promote faster recovery by identifying vulnerable zones, such as flood-prone areas, and analysing which areas of the city are susceptible to damage to the natural ecology, thereby facilitating coordination between technical agencies, the Red Cross and local governments. recovery. The development policy will focus on improving the capital, San José.
 
 ![Communities flooded in Caño Ciego. Source: <https://www.scielo.sa.cr/scielo.php?pid=S2215-25632023000100273&script=sci_arttext&tlng=en>.](images/flood.jpg){fig-align="center"}
 
@@ -27,8 +29,7 @@ The case of San Jose taught me that effective flood management is not just a tec
 Through this learning experience, I gained insight into the interplay of policy, urban planning and data applications in disaster risk management. Effective flood management strategies require interdisciplinary collaboration that combines policy making, urban planning, and data science and technology to respond to flood hazards in a scientific and systematic way that promotes the sustainable development of San José, and even extends to other similar cities in the humid tropics!
 
 ## References
+
 Arciniega-Esparza, S., Birkel, C., Chavarría-Palma, A., Arheimer, B. and Breña-Naranjo, J. A. (2022). ‘Remote sensing-aided rainfall–runoff modeling in the tropics of Costa Rica’. Hydrology and Earth System Sciences. Copernicus GmbH, 26 (4), pp. 975–999. doi: 10.5194/hess-26-975-2022.
 
 Ekeu-wei, I. T. and Blackburn, G. A. (2018). ‘Applications of Open-Access Remotely Sensed Data for Flood Modelling and Mapping in Developing Regions’. Hydrology. Multidisciplinary Digital Publishing Institute, 5 (3), p. 39. doi: 10.3390/hydrology5030039.
-
-
