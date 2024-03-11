@@ -14,7 +14,7 @@ It allows users to download and upload global satellite images and allows them t
 
 GEE is set up based on Google Cloud, the bottom layer is data storage, including 20 levels of raster and 22 levels of vector tile data; the second layer is the cloud computing layer, divided into instant response computing and batch computing; the third layer is the networked REST (Representational State Transfer) APls service; the fourth layer is the client library, which is called JavaScript API and Python API; the top layer is the interaction layer, JavaScript API corresponds to Code Editor, and Python API corresponds to the webpage or local application developed by the three parties. The fourth layer is the client library, using JavaScript and Python to parse REST APIs, which can be called JavaScript API and Python API; the top layer is the interaction layer, JavaScript API corresponds to Code Editor, and Python API corresponds to three-party development of web pages or local applications.
 
-![](images/gee2.jpg){fig-align="center"}
+![GEE Architecture ([Gomes et al. 2020](https://doi.org/10.3390/rs12081253))](images/A-simplified-Google-Earth-Engine-GEE-system-architecture-diagram-Source-Gorelick-et.png){fig-align="center"}
 
 ### Advantages
 
@@ -45,6 +45,8 @@ Nowadays, when data is becoming more and more dense, especially with the availab
 However, I am concerned that because GEE relies on satellite data, which may have limitations in terms of temporal coverage and weather conditions, GEE may not be applicable to all remote sensing problems.
 
 ## References
+
+Gomes, V.C., Queiroz, G.R. and Ferreira, K.R., 2020. An overview of platforms for big earth observation data management and analysis. Remote Sensing, 12(8), p.1253. doi: 10.3390/rs12081253.
 
 Hussain, S., Mubeen, M., Ahmad, A., Akram, W., Hammad, H. M., Ali, M., Masood, N., Amin, A., Farid, H. U., Sultana, S. R., Fahad, S., Wang, D. and Nasim, W. (2020). ‘Using GIS tools to detect the land use/land cover changes during forty years in Lodhran District of Pakistan’. Environmental Science and Pollution Research, 27 (32), pp. 39676–39692. doi: 10.1007/s11356-019-06072-3.
 
