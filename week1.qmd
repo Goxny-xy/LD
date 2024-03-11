@@ -6,13 +6,15 @@
 
 A scientific method and technique for gathering data about the Earth's surface, atmosphere, and oceans without making physical touch with the item is called remote sensing. The method is dependent on the identification and quantification of electromagnetic radiation that is either reflected or emitted from a target area or object. A variety of platforms, including as satellites, aeroplanes, unmanned aerial vehicles (UAVs), and ground stations, can be equipped with remote sensing technology to gather a variety of data about the planet.
 
-![](images/274076.png){fig-align="center" width="434" height="266"}
+![Source：<https://openclipart.org/detail/274076/cartoon-sentinel-satellites-parody>](images/274076.png){fig-align="center" width="434" height="266"}
 
 ### How it works?
 
 Active remote sensing: electromagnetic waves are emitted by the sensors and are reflected back from features. For example, a radar system measures a feature's distance, shape, roughness, and other characteristics by sending out microwaves and receiving their reply.
 
 Passive remote sensing: depends on the feature itself or on electromagnetic radiation released by a natural light source (like the sun). When sunlight strikes the Earth's surface, for instance, sensors aboard satellites or aircraft catch the light reflected from features.
+
+![Passive vs active. Source: <https://www.researchgate.net/figure/Figure-14-Passive-and-Active-Remote-Sensing-System-16_fig2_363487937>](images/图片4.png){fig-align="center"}
 
 ## Applications
 
