@@ -1,3 +1,9 @@
 # Week2 Portfolio
 
 ## Xaringan
+
+```{r echo = FALSE, out.width='40%'}
+xaringanExtra::embed_xaringan( 
+  url = "https://github.com/Goxny-xy/Xaringan.git ", 
+  ratio = "16:9")
+```
