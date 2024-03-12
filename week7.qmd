@@ -10,7 +10,7 @@ The Classifier package handles supervised classification through traditional ML 
 
 A classification and regression tree (CART) is a predictive model that explains how to predict the value of an outcome variable based on other values.The output of a CART is a decision tree in which each fork is a partition of the predictor variable and each end node contains a prediction for the outcome variable.
 
-![](images/CART.jpg){fig-align="center"}
+![The general workflow for classification. Source: <https://bikeshbade.com.np/tutorials/Detail/?title=Supervised%20Classification%20in%20GEE&code=20>.](images/CART.jpg){fig-align="center" width="519"}
 
 Basically, a decision tree is a fairly simple structure consisting of three different types of elements: a root node, which is the starting point containing all the training samples; multiple decision nodes, where we split the data using simple if-else decision rules, and multiple terminal nodes, where we end up assigning categories for classification purposes.
 
@@ -38,7 +38,7 @@ Random forest creates decision trees on randomly selected data samples, obtains 
 
 ![](images/rf1.png){fig-align="center"}
 
-![The example. Source: [NASA’s Applied Remote Sensing Training Program.](https://appliedsciences.nasa.gov/sites/default/files/2021-06/GEE_Part2_Edited_JO.pdf)](images/rf2-01.png){fig-align="center"}
+![The example of classification. Source: [NASA’s Applied Remote Sensing Training Program.](https://appliedsciences.nasa.gov/sites/default/files/2021-06/GEE_Part2_Edited_JO.pdf)](images/rf2-01.png){fig-align="center"}
 
 #### Advantages and limitations
 
@@ -58,7 +58,7 @@ Limitations:
 
 -   Training data must capture the entire spectral range.
 
-![Simple random forest classification completed for the San Francisco Bay Area of California in the GEE interface.](images/rs3.jpg){fig-align="center" width="548" height="305"}
+![Simple random forest classification completed for the San Francisco Bay Area of California in the GEE interface. Source: <https://developers.google.com/earth-engine/guides/classification>.](images/rs3.jpg){fig-align="center" width="548" height="305"}
 
 ## Applications
 
@@ -79,10 +79,9 @@ I recognised the importance of combining CART, RF and SVM models with geospatial
 However, interpreting the output of a decision tree classifier or random forest is not as simple as reading coefficients and intercepts directly from a linear regression model as applied from CASA0007.
 
 ## References
+
 Loukika, K. N., Keesara, V. R. and Sridhar, V. (2021). ‘Analysis of Land Use and Land Cover Using Machine Learning Algorithms on Google Earth Engine for Munneru River Basin, India’. Sustainability. Multidisciplinary Digital Publishing Institute, 13 (24), p. 13758. https://doi.org/10.3390/su132413758
 
-Ouma, Y., Nkwae, B., Moalafhi, D., Odirile, P., Parida, B., Anderson, G. and Qi, J. (2022). ‘COMPARISON OF MACHINE LEARNING CLASSIFIERS FOR MULTITEMPORAL AND MULTISENSOR MAPPING OF URBAN LULC FEATURES’. The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences. XXIV ISPRS Congress “Imaging today, foreseeing tomorrow”, Commission III - 2022 edition, 6&ndash;11 June 2022, Nice, France, Copernicus GmbH, XLIII-B3-2022, pp. 681–689. https://doi.org/10.5194/isprs-archives-XLIII-B3-2022-681-2022
+Ouma, Y., Nkwae, B., Moalafhi, D., Odirile, P., Parida, B., Anderson, G. and Qi, J. (2022). ‘COMPARISON OF MACHINE LEARNING CLASSIFIERS FOR MULTITEMPORAL AND MULTISENSOR MAPPING OF URBAN LULC FEATURES’. The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences. XXIV ISPRS Congress “Imaging today, foreseeing tomorrow”, Commission III - 2022 edition, 6–11 June 2022, Nice, France, Copernicus GmbH, XLIII-B3-2022, pp. 681–689. https://doi.org/10.5194/isprs-archives-XLIII-B3-2022-681-2022
 
 Zhao, Z., Islam, F., Waseem, L. A., Tariq, A., Nawaz, M., Islam, I. U., Bibi, T., Rehman, N. U., Ahmad, W., Aslam, R. W., Raza, D. and Hatamleh, W. A. (2024). ‘Comparison of Three Machine Learning Algorithms Using Google Earth Engine for Land Use Land Cover Classification’. Rangeland Ecology & Management, 92, pp. 129–137. https://doi.org/10.1016/j.rama.2023.10.007
-
-
