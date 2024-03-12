@@ -14,7 +14,7 @@ It allows users to download and upload global satellite images and allows them t
 
 GEE is set up based on Google Cloud, the bottom layer is data storage, including 20 levels of raster and 22 levels of vector tile data; the second layer is the cloud computing layer, divided into instant response computing and batch computing; the third layer is the networked REST (Representational State Transfer) APls service; the fourth layer is the client library, which is called JavaScript API and Python API; the top layer is the interaction layer, JavaScript API corresponds to Code Editor, and Python API corresponds to the webpage or local application developed by the three parties. The fourth layer is the client library, using JavaScript and Python to parse REST APIs, which can be called JavaScript API and Python API; the top layer is the interaction layer, JavaScript API corresponds to Code Editor, and Python API corresponds to three-party development of web pages or local applications.
 
-![GEE Architecture ([Gomes et al. 2020](https://doi.org/10.3390/rs12081253))](images/A-simplified-Google-Earth-Engine-GEE-system-architecture-diagram-Source-Gorelick-et.png){fig-align="center"}
+![GEE Architecture ([Gomes et al. 2020](https://doi.org/10.3390/rs12081253))](images/A-simplified-Google-Earth-Engine-GEE-system-architecture-diagram-Source-Gorelick-et.png){fig-align="center" width="420" height="320"}
 
 ### Advantages
 
