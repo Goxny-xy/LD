@@ -68,9 +68,9 @@ Zhao *et al.* ([2024](https://doi.org/10.1016/j.rama.2023.10.007)) showed that a
 
 Their findings are similar to those of Loukika et al., ([2021](https://doi.org/10.3390/su132413758)) and Ouma et al., ([2022](https://doi.org/10.5194/isprs-archives-XLIII-B3-2022-681-2022)) in that CART and SVM performed well in detecting and mapping water bodies in the study area; and RF and CART classifiers performed well in mapping built-up categories in the study area, whereas SVM confused them with bare soil.
 
-![a, Normalised Vegetation Index Difference (NVID). b, Corrected Normalised Difference Water Index (NDWI). c, Built-in indexes. d, L and land cover (LULC) maps of the study area using CART. e, Support Vector Machine (SVM) LULC maps. f, Random Forest Generated (RFG) LULC map. ([Zhao et al. 2024](https://doi.org/10.1016/j.rama.2023.10.007))](images/LULC.jpg){fig-align="center" width="482"}
-
 My understanding is that who performs better depends on what data is used to classify, because models perform differently for different types, and only when data and methods match each other can we get better results. For example, a large number of studies have shown that RF is considered to be the most suitable algorithm for vegetation extraction in the current research field, followed by SVM; CART and SVM perform better for water classification.
+
+![a, Normalised Vegetation Index Difference (NVID). b, Corrected Normalised Difference Water Index (NDWI). c, Built-in indexes. d, L and land cover (LULC) maps of the study area using CART. e, Support Vector Machine (SVM) LULC maps. f, Random Forest Generated (RFG) LULC map. ([Zhao et al. 2024](https://doi.org/10.1016/j.rama.2023.10.007))](images/LULC.jpg){fig-align="center" width="482"}
 
 ## Reflections
 
