@@ -1,6 +1,6 @@
 # Week2 Portfolio
 
-## Xaringan
+## Xaringan 
 
 ```{r echo = FALSE, out.width='40%'}
 xaringanExtra::embed_xaringan( 
