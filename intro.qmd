@@ -2,9 +2,14 @@
 
 ## Here is Xiaoyun Gong.
 
-This is a book created from markdown and executable code.
+I am one of student in CASA0023.
+
+This is my first experience with remote sensing, so I created this remote sensing diary to record my learning and achievements.
+
+Wish you like it \^\_\^
+
+![Source：<https://stock.adobe.com/ie/images/colorful-ribbon-flags-decoration-with-welcome-word-vector-illustration/526567930>.](images/welcome.jpg){fig-align="center" width="703" height="266"}
 
 ## Please note:
 
 If you find that some pages are blank, click Refresh or something else in the menu bar and then return to view them.
-
