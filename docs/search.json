@@ -39,7 +39,7 @@
     "href": "index.html",
     "title": "Learning Dairy",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "Hello"
   },
   {
     "objectID": "week1.html#summary",
@@ -292,5 +292,19 @@
     "title": "4  Week3 Corrections",
     "section": "4.4 References",
     "text": "4.4 References\nIlori, C. O., Pahlevan, N. and Knudby, A. (2019). ‘Analyzing Performances of Different Atmospheric Correction Techniques for Landsat 8: Application for Coastal Remote Sensing’. Remote Sensing. Multidisciplinary Digital Publishing Institute, 11 (4), p. 469. doi: 10.3390/rs11040469.\nShanmugam, P. and Ahn, Y.H., 2007. New atmospheric correction technique to retrieve the ocean colour from SeaWiFS imagery in complex coastal waters. Journal of Optics A: Pure and Applied Optics, 9(5), p.511. doi: 10.1088/1464-4258/9/5/016.\nWang, Y., Wang, X., He, H. and Tian, G. (2019). ‘An Improved Dark Object Subtraction Method for Atmospheric Correction of Remote Sensing Images’. in Wang, Yongtian, Huang, Q., and Peng, Y. (eds) Image and Graphics Technologies and Applications. Singapore: Springer (Communications in Computer and Information Science), pp. 425–435. doi: 10.1007/978-981-13-9917-6_41."
+  },
+  {
+    "objectID": "index.html#here-is-xiaoyun-gong.",
+    "href": "index.html#here-is-xiaoyun-gong.",
+    "title": "Learning Dairy",
+    "section": "Here is Xiaoyun Gong.",
+    "text": "Here is Xiaoyun Gong.\nI am one of student in CASA0023.\nThis is my first experience with remote sensing, so I created this remote sensing diary to record my learning and achievements.\nWish you like it ^_^\n\n\n\nSource：https://stock.adobe.com/ie/images/colorful-ribbon-flags-decoration-with-welcome-word-vector-illustration/526567930."
+  },
+  {
+    "objectID": "index.html#please-note",
+    "href": "index.html#please-note",
+    "title": "Learning Dairy",
+    "section": "Please note:",
+    "text": "Please note:\nIf you find that some pages are blank, click Refresh or something else in the menu bar and then return to view them."
   }
 ]
