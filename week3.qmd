@@ -8,13 +8,14 @@
 
 The dark subtraction processor implements a simple empirical "atmospheric correction" method of calculation for the source product. This method searches for the darkest pixel value in each band and removes the scattering by subtracting that value from each pixel in the band, thus correcting the original satellite (or any other) image.
 
-It is assumed that the darkest parts of the image (water, man-made structures) should be black if there is no effect of atmospheric scattering. A correction is made so that the black value of one band can be used to correct the remaining bands.
 
 ### enhancement
 
 #### Ratio: Normalised Difference Vegetation Index NDVI
 
 It is a simple graphical metric commonly used to analyse remotely sensed measurements and to assess whether an observation target contains green and healthy vegetation. It quantifies vegetation based on measuring the difference between near-infrared (NIR), which is strongly reflected by vegetation, and red light, which is absorbed by vegetation/has low reflectivity. It’s calculated as follows:
+
+$NDVI=\frac{NIV-Red}{NIV-Red}$
 
 The NDVI values range between -1 and 1, and will increase proportionally with vegetation growth. (An area without any growth will have an NDVI of zero.) An area with dense, healthy vegetation will have an NDVI of 1. An area with dense, healthy vegetation will have an NDVI of 1. An NDVI value of less than 0 indicates a lack of drylands. The NDVI of the ocean will be -1.)
 
