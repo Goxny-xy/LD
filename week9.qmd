@@ -28,7 +28,7 @@ An urban heat island (UHI) is a large urban area that is much warmer than the su
 
 #### Causes of Formation + Major Hazards
 
-![Mind map, by myself.](images/Urban%20Heat%20Island.png){fig-align="center" width="671"}
+![Mind map, by myself. <https://github.com/Goxny-xy/LD/blob/main/images/Urban%20Heat%20Island.png>](images/Urban%20Heat%20Island.png){fig-align="center" width="671"}
 
 ## Applications
 
@@ -67,5 +67,3 @@ Sidiqui, P., Huete, A. and Devadas, R. (2016). ‘Spatio-temporal mapping and mo
 Wang, K., Jiang, S., Wang, J., Zhou, C., Wang, X. and Lee, X. (2017). ‘Comparing the diurnal and seasonal variabilities of atmospheric and surface urban heat islands based on the Beijing urban meteorological network’. Journal of Geophysical Research: Atmospheres, 122 (4), pp. 2131–2154. doi: 10.1002/2016JD025304.
 
 Wu, Z., Yao, L., Zhuang, M. and Ren, Y. (2020). ‘Detecting factors controlling spatial patterns in urban land surface temperatures: A case study of Beijing’. Sustainable Cities and Society, 63, p. 102454. doi: 10.1016/j.scs.2020.102454.
-
-
